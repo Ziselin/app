@@ -209,6 +209,9 @@ button:disabled { opacity: .4; cursor: default; }
 .collection-editor-field { display: grid; gap: 7px; margin: 13px 0; font-size: .8rem; font-weight: 720; }
 .collection-editor-field .field-hint { margin: 0; font-weight: 400; }
 #collectionRemove:disabled { opacity: .35; cursor: default; }
+#collectionGroupRemove:disabled { opacity: .35; cursor: default; }
+.node[data-type="collection-group"] > .node-heading { grid-template-rows: auto auto; gap: 8px; padding: 8px 10px; }
+.collection-group-select { width: 100%; min-width: 0; border: 1px solid #aeb9b2; border-radius: 6px; padding: 5px 24px 5px 8px; background: #f4f5f1; color: var(--ink); font-size: 12px; font-weight: 650; cursor: pointer; pointer-events: auto; }
 .canvas-dimensions { position: absolute; z-index: 20; top: 14px; left: 14px; display: grid; gap: 13px; max-width: min(300px, calc(100% - 28px)); pointer-events: auto; }
 .level-filters { display: grid; gap: 6px; }
 .relation-layer-filter { position: absolute; z-index: 20; top: 14px; right: 14px; display: grid; gap: 4px; min-width: 210px; padding: 8px 10px; border: 1px solid #cbd2cb; border-radius: 8px; background: #fafaf6eF; box-shadow: 0 3px 12px #21363312; color: #65736e; font-size: .68rem; font-weight: 760; letter-spacing: .08em; text-transform: uppercase; pointer-events: auto; }

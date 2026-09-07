@@ -161,3 +161,4 @@
 - Die linke Elementpalette ist nun ein funktionaler Werkzeugkoffer aus Institution, Strukturgruppe, Sammlung und Rechtsgrundlage. Frühere fachliche Elementtypen werden beim Laden und Importieren kompatibel als Institution übernommen.
 - Die staatlichen Ebenen besitzen keine Drei-Punkte-Schalter mehr. Nur ein Klick auf die Checkbox ändert die Sichtbarkeit; der Ebenenname öffnet die Einstellung und dient als Griff zum Umsortieren innerhalb der Liste.
 - Das Umsortieren der staatlichen Ebenen übernimmt die neue Position beim Loslassen nun zuverlässig über einen internen Drag-Zustand.
+- Sammlungen unterscheiden nun zwischen einfachen Sammlungen und Sammlungsgruppen. Eine Sammlungsgruppe erzeugt und verwaltet ihre einfachen Sammlungen automatisch, zeigt jeweils genau eine davon an und entfernt beim Löschen auch alle zugehörigen Sammlungen.

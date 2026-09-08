@@ -162,3 +162,7 @@
 - Die staatlichen Ebenen besitzen keine Drei-Punkte-Schalter mehr. Nur ein Klick auf die Checkbox ändert die Sichtbarkeit; der Ebenenname öffnet die Einstellung und dient als Griff zum Umsortieren innerhalb der Liste.
 - Das Umsortieren der staatlichen Ebenen übernimmt die neue Position beim Loslassen nun zuverlässig über einen internen Drag-Zustand.
 - Sammlungen unterscheiden nun zwischen einfachen Sammlungen und Sammlungsgruppen. Eine Sammlungsgruppe erzeugt und verwaltet ihre einfachen Sammlungen automatisch, zeigt jeweils genau eine davon an und entfernt beim Löschen auch alle zugehörigen Sammlungen.
+- Sammlungsgruppen verwenden nun dieselbe Mengen-Schaltfläche und dasselbe aufklappbare Menü wie einfache Sammlungen. Neue Gruppen zeigen zunächst einen leeren Sammlungsplatz, statt automatisch eine benannte Sammlung anzulegen.
+- Zwei-Finger-Wischen auf dem Trackpad verschiebt nun das Canvas in beide Richtungen. Pinch-Zoom bleibt am Zeiger verankert, reagiert aber feiner und speichert eine zusammenhängende Geste als einen Bedienungsschritt.
+- Beziehungsbeschriftungen ersetzen das separate §-Symbol als Quellenzugang: ohne Quelle erscheinen sie grau, mit Quelle dunkel und beim Hover als hinterlegte Schaltfläche; ein Klick öffnet die Quelleninformationen.
+- Sammlungen und Sammlungsgruppen werden nicht mehr unter „Elementgruppe / enthalten in“ angeboten und können auch per Drag-and-drop nicht versehentlich zu Strukturgruppen für normale Elemente werden.

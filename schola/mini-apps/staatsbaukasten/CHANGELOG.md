@@ -2,7 +2,7 @@
 
 ## 0.2.0 – Unveröffentlicht
 
-- Die Gewaltenzuordnung einer Sammlung oder Sammlungsgruppe wird verbindlich an alle enthaltenen Diagrammelemente vererbt. Bestehende und neu angelegte Kinder übernehmen die Zuordnung; ihr geerbtes Feld ist gegen abweichende Eingaben gesperrt.
+- Die Gewaltenzuordnung einer Sammlung oder Sammlungsgruppe wird verbindlich an alle enthaltenen Diagrammelemente und die eigentlichen Listeneinträge in `properties.items` vererbt. Bestehende, importierte und neu angelegte Inhalte werden synchronisiert; das geerbte Feld von Kindknoten ist gegen abweichende Eingaben gesperrt.
 - Sammlungsgruppen können neben ihrer austauschbaren dynamischen Sammlung nun weitere normale, dauerhaft sichtbare Gruppenelemente enthalten. Beim Löschen der Gruppe werden nur die automatisch erzeugten Sammlungen gelöscht; normale Kinder bleiben als freie Elemente erhalten.
 - Verbindungslinien und Pfeilspitzen übernehmen bei aktiver Farbdarstellung die Gewalt-Farbe ihres Ausgangselements; deaktivierte Gewalten bleiben auch bei Beziehungen neutral.
 

@@ -2,6 +2,9 @@
 
 ## 0.2.0 – Unveröffentlicht
 
+- Sammlungsgruppen können neben ihrer austauschbaren dynamischen Sammlung nun weitere normale, dauerhaft sichtbare Gruppenelemente enthalten. Beim Löschen der Gruppe werden nur die automatisch erzeugten Sammlungen gelöscht; normale Kinder bleiben als freie Elemente erhalten.
+- Verbindungslinien und Pfeilspitzen übernehmen bei aktiver Farbdarstellung die Gewalt-Farbe ihres Ausgangselements; deaktivierte Gewalten bleiben auch bei Beziehungen neutral.
+
 ### 2026-09-06
 
 - Ein verbindliches 24-Pixel-Satzraster – die doppelte Pfeilgröße – steuert nun Elementpositionen und -maße, Gruppenabstände, Anschlusspunktabstände, automatische Pfeilkanäle sowie manuell verschobene Segmente und Knickpunkte. Der KI-Generator verwendet dieselben Vielfachen für Positionen, Größen und Freiräume.

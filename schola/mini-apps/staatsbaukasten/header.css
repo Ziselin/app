@@ -278,7 +278,8 @@ button:disabled { opacity: .4; cursor: default; }
 .branch-color-field input[type="color"] { width: 52px; height: 38px; padding: 3px; cursor: pointer; }
 .branch-color-field output { font-family: ui-monospace, Consolas, monospace; font-size: .8rem; }
 .node, .node.is-child, .node.has-children, .node[data-type="constitution"] { border-width: 3px; }
-.edge-path { stroke-width: 3px; }
+.edge-path { stroke: var(--edge-color, var(--ink)); stroke-width: 3px; }
+.edge-path.edge-selected { stroke: var(--edge-color, var(--ink)); }
 .node.level-muted { opacity: .32; filter: grayscale(1); pointer-events: none; }
 .edge-hit.level-muted, .edge-label-control.level-muted { pointer-events: none; }
 .edge-path.level-muted, .edge-label-control.level-muted { opacity: .25; }
